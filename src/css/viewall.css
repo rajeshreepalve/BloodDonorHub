@@ -1,0 +1,57 @@
+/* ViewAll.css */
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: brown;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: bisque;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.view-more {
+  background-color: #28a745;
+}
+
+button.edit {
+  background-color: #17a2b8;
+}
+
+button.delete {
+  background-color: #dc3545;
+}

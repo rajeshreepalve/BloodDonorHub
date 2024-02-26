@@ -1,0 +1,42 @@
+/* NavBar.css */
+
+nav {
+    background-color: brown;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  aside {
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  svg {
+    margin-right: 5px;
+  }
+  

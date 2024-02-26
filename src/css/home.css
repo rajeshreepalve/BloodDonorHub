@@ -1,0 +1,51 @@
+/* home.css */
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    background-color: bisque;
+  }
+  
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+   
+  }
+  
+  .container form div {
+    margin-bottom: 15px;
+  }
+  
+  .container form div label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .container form div input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+  }
+  
+  .container form div input[type="number"] {
+    width: calc(100% ); 
+  }
+  
+  .container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container form button:hover {
+    background-color: burlywood;
+  }
+  
